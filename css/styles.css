@@ -1,0 +1,135 @@
+/*Below is the html elements custom css*/
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: rgba(221, 215, 215, 0.897);
+}
+
+footer {
+  padding: 1%;
+  padding-bottom: 2.3%;
+  line-height: 1.7em;
+  font-style: normal;
+  font-size: 0.95em;
+}
+/*Above is the html elements custom css*/
+
+/*Below is the Main custom css*/
+#main {
+  text-align: center;
+}
+/*Above is the main custom css*/
+
+/*Below is the Title custom css*/
+#title {
+  line-height: 2em;
+  font-size: 0.9em;
+  margin-top: 0;
+}
+
+#drNorman {
+  font-size: 2.3em;
+}
+/*Above is the Title custom css*/
+
+/*Below is the Image div custom css*/
+#img-div {
+  background-color: white;
+  margin: auto;
+  max-width: 94vw;
+  max-height: 100%;
+}
+
+#image {
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+}
+
+#imageCaption {
+  max-width: 100%;
+  margin: auto;
+  font-size: 0.95em;
+  font-family: sans-serif;
+  padding: 1%;
+  line-height: 1.5em;
+}
+/*Above is the Image div custom css*/
+
+/* Below is the Tribute-info div custom css */
+#tribute-info-header {
+  margin-top: 4.5%;
+  font-size: larger;
+}
+
+@media (max-width: 1000px) {
+  #tribute-info-header {
+    margin-top: 7%;
+    font-size: larger;
+  }
+}
+
+#tribute-info {
+  text-align: justify !important;
+  font-size: 0.95em;
+  margin-left: 20.5vw;
+  margin-top: 8vh;
+  width: 50vw;
+  line-height: 1.7em;
+}
+
+@media (max-width: 1000px) {
+  #tribute-info {
+    text-align: justify !important;
+    font-size: 0.95em;
+    margin-left: 3vw;
+    margin-top: 8vh;
+    width: 90vw;
+    line-height: 1.7em;
+  }
+}
+
+@media (max-width: 500px) {
+  #tribute-info-header {
+    margin-top: 10%;
+    font-size: larger;
+    margin-left: 15%;
+  }
+}
+
+.listSpace {
+  margin-top: 3vh;
+}
+
+.year {
+  font-weight: bold;
+}
+/* Above is the Tribute-info div custom css */
+
+/* Below is the quote custom css */
+#quote {
+  max-width: 55%;
+  max-height: 50%;
+  margin-left: 19vw;
+  text-align: justify;
+  font-size: 0.95em;
+  line-height: 1.5em;
+  margin-top: 5%;
+}
+
+@media (max-width: 1000px) {
+  #quote {
+    max-width: 100%;
+    max-height: 50%;
+    margin-left: 0.8vw;
+    text-align: justify;
+    font-size: 0.95em;
+    line-height: 1.5em;
+    margin-top: 5%;
+  }
+}
+
+#quoteCaption {
+  margin-left: 5.5%;
+}
+/* Above is the quote custom css */
