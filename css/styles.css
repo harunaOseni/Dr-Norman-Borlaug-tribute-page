@@ -2,7 +2,7 @@
 body {
   font-family: sans-serif;
   margin: 0;
-  background-color: rgba(221, 215, 215, 0.897);
+  background-color: rgba(102, 99, 99, 0.089);
 }
 
 footer {
@@ -38,6 +38,7 @@ footer {
   margin: auto;
   max-width: 94vw;
   max-height: 100%;
+  border-radius: 15px;
 }
 
 #image {
